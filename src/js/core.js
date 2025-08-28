@@ -345,9 +345,8 @@
       clickContent: function (current, event) {
         return current.type === "image" ? "toggleControls" : false;
       },
-      clickSlide: function (current, event) {
-        return current.type === "image" ? "toggleControls" : "close";
-      },
+      clickSlide: "close",
+      clickOutside: "close",
       dblclickContent: function (current, event) {
         return current.type === "image" ? "zoom" : false;
       },
