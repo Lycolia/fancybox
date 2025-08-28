@@ -7,6 +7,14 @@ This repository has been archived and is now part of https://github.com/fancyapp
 jQuery lightbox script for displaying images, videos and more.
 Touch enabled, responsive and fully customizable.
 
+## ビルド方法
+
+```bash
+npm ci
+nvm use
+npx gulp
+```
+
 ## Quick start
 
 1\. Add latest jQuery and Fancybox files
